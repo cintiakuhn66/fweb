@@ -1,0 +1,75 @@
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#imglogo{
+    width: 10%;
+    height: 10%;
+}
+
+#imglupa{
+    width: 4%;
+    height: auto;
+}
+
+.busca, .menu-conteudo{
+    background-color: rgb(144, 206, 253);
+    font-weight: bold;/*negrito*/
+    text-transform: uppercase;/*maiúsculo*/
+    width: 35%;
+    margin-right: 10px;
+    float: left;
+}
+
+.busca h2, .busca form, .menu-conteudo h2{
+    margin: 10px;
+}
+
+.menu-conteudo li{
+    background-color: rgb(212, 241, 255);
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a{
+    color: cornflowerblue;
+}
+
+.menu-conteudo{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}

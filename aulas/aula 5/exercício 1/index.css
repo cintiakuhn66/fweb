@@ -1,0 +1,12 @@
+.dpainel{
+    background-color: rgb(43, 140, 243);
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+#imgj{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}

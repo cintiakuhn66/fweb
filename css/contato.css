@@ -1,0 +1,29 @@
+h1{
+    background-image: url(../img/Tinta_Latex_Premium_Acrilica_Tradicao_Verde_Musgo_36l_Lukscolor_93702903png.png);
+    text-align: center;
+    padding: 8px;
+}
+
+h2{
+    border-bottom: 2px solid rgb(71, 70, 70);
+    margin-top: px;
+    padding: 025px;
+    text-indent: 5px;
+}
+
+figure{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+#img1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 315px;
+}
+
+img{
+    width: 325px;
+    height: 350px;
+}

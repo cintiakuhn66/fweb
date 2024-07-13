@@ -1,0 +1,31 @@
+div{
+    width: 115px;
+    height: 115px;
+    color: white;
+    background-color: rgb(59, 236, 212);
+    text-align: center;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#quad1{
+    border-radius: 50%;
+}
+
+#quad2{
+    border-radius: 10px;
+}
+
+#quad3{
+    border-radius: 20px;
+}
+
+#quad4{
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+}
+
+#quad5{
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+}
+

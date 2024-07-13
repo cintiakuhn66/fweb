@@ -1,0 +1,16 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.conatiner a[href*=Github]{
+    color: red;
+}
+
+.conatiner a[href*=Instagram]{
+    color:chocolate;
+}
+
+

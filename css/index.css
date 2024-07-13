@@ -1,0 +1,98 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslateblue;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.painel{
+    width: 48%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.aula1{
+    float: left;
+    background-color: cornflowerblue;
+}
+
+.aula2{
+    float: right;
+    background-color: aquamarine;
+}
+
+.painel li{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 20px;
+}
+
+.painel a{
+    color: coral;
+    font-size: 15px;
+    text-align: center;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 40px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+footer{
+    clear: both;
+}
+
+.social li{
+    float: left;
+    margin-right: 20px;
+}
