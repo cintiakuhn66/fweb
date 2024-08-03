@@ -1,6 +1,15 @@
-body{
+html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkslateblue;
+    color: rgb(0, 0, 0);
+    background-color: #eaf6e1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 20%;
 }
 
 .menu-opcoes ul{
@@ -8,13 +17,28 @@ body{
 }
 
 .menu-opcoes a{
-    color: #003366;
+    color: #000000;
+    margin-right: 15px;
 }
 
 .menu-opcoes{
     position: absolute;
     top: 0px;
     right: 0px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.menu-opcoes a:hover{
+    color: blueviolet;
+}
+
+.menu-opcoes a:active{
+    color: chartreuse;
+}
+
+main{
+    height: 65%;
 }
 
 .container{
@@ -32,16 +56,32 @@ body{
     width: 48%;
     margin: 10px 0;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
 }
 
 .aula1{
     float: left;
-    background-color: cornflowerblue;
+    background-color: rgb(144, 206, 253);
+    background: linear-gradient(5deg,  rgb(148, 186, 174), #899c5a);
 }
 
 .aula2{
     float: right;
-    background-color: aquamarine;
+    background-color: rgb(144, 206, 253);
+    background: linear-gradient(5deg,   rgb(148, 186, 174), #899c5a);
+}
+
+.aula3{
+    float: left;
+    background-color: rgb(144, 206, 253);
+    background: linear-gradient(5deg,   rgb(148, 186, 174), #899c5a);
+}
+
+.aula4{
+    float: right;
+    background-color: rgb(144, 206, 253);
+    background: linear-gradient(5deg,   rgb(148, 186, 174), #899c5a);
 }
 
 .painel li{
@@ -50,14 +90,18 @@ body{
     vertical-align: top;
     margin: 2px;
     padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .painel h2{
     font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 5px 5px rgba(95, 121, 98, 0.8);
 }
 
 .painel a{
-    color: coral;
+    color: rgb(60, 92, 60);
     font-size: 15px;
     text-align: center;
 }
@@ -70,12 +114,23 @@ body{
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    
 }
 
 .social li a[href*=github]{
     width: 50px;
     height: 50px;
     background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
@@ -90,9 +145,66 @@ body{
 
 footer{
     clear: both;
+    background-image: url(../img/Tinta_Latex_Premium_Acrilica_Tradicao_Verde_Musgo_36l_Lukscolor_93702903png.png);
+    height: 20%;
 }
 
 .social li{
     float: left;
     margin-right: 20px;
+}
+
+.painel li:hover{
+    box-shadow: 10px 10px 5px black;
+    transition: 0.7s;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.imgexe{
+    width: 50%;
+    height: auto;
+}
+
+.imglogo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid rgb(60, 92, 60);
+    margin-top: 10px;
+}
+
+.imglogo2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(60, 92, 60);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.destaque img{
+    width: 10%;
+    height: auto;
+}
+
+.destaque{
+    text-align: center;
+}
+
+.button{
+    width: 130px;
+    height: 28px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 2.5px solid rgb(113, 154, 113);
+    font-size: 11px;
+    border-radius: 5%;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

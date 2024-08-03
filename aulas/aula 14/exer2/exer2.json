@@ -1,0 +1,37 @@
+[
+    {
+    "nome":"Cíntia",
+    "idade":18,
+    "cpf":65849726514,
+    "telefone":51948569723
+    },
+
+    {
+    "nome":"Alice",
+    "idade":26,
+    "cpf":45689547562,
+    "telefone":51936485795
+    },
+
+    {
+    "nome":"Luan",
+    "idade":22,
+    "cpf":46598565982,
+    "telefone":51932845786
+    },
+    
+
+    {
+    "nome":"Clara",
+    "idade":14,
+    "cpf":24658968720,
+    "telefone":51962485975
+    },
+
+    {
+    "nome":"Diego",
+    "idade":38,
+    "cpf":15634869520,
+    "telefone":51965847658
+    }
+]

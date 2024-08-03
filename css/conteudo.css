@@ -34,7 +34,7 @@
 }
 
 .busca, .menu-conteudo{
-    background-color: rgb(144, 206, 253);
+    background-image: url(../img/Tinta_Latex_Premium_Acrilica_Tradicao_Verde_Musgo_36l_Lukscolor_93702903png.png);
     font-weight: bold;/*negrito*/
     text-transform: uppercase;/*maiúsculo*/
     width: 35%;
@@ -47,13 +47,13 @@
 }
 
 .menu-conteudo li{
-    background-color: rgb(212, 241, 255);
+    background-color:rgb(218, 238, 224);
     margin-bottom: 1px;
     padding: 5px 10px;
 }
 
 .menu-conteudo a{
-    color: cornflowerblue;
+    color: rgb(67, 93, 79);
 }
 
 .menu-conteudo{
@@ -72,4 +72,25 @@
 
 .busca input[type=search]{
     width: 170px;
+}
+
+.menu-conteudo li ul{
+    /*display:none vai esconder o elemento*/
+    display: none;
+}
+
+.menu-conteudo li:hover ul{
+    display: block;
+}
+
+.menu-conteudo ul ul li{
+    background-color: #dcdcdc;
+}
+
+.menu-conteudo li li a:before{
+    content: '<';
+}
+
+.menu-conteudo li li a:after{
+    content: '>';
 }

@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
 </head>
+
 <body>
     <header class="container">
         <figure>
-            <img class="imglogo" src="" alt="Imagem do logo">
+            <img class="imglogo" src="./img/logo111.png" alt="Imagem do logo">
         </figure>
+        <h2>"Você é o seu único limite!"</h2>
         <nav class="menu-opcoes">
             <ul>
+                <button class="button">
                 <li>
-                    <a href="index.html">Página Principal</a>
+                    <a href="index.html">Página principal</a>
                 </li>
+                </button>
+
+                <button class="button">
                 <li>
                     <a href="contato.html">Contato</a>
                 </li>
+                </button>
+
+                <button class="button">
                 <li>
                     <a href="conteudo.html">Conteúdo</a>
                 </li>
+                </button>
+
+                <button class="button">
                 <li>
                     <a href="blog.html">Blog</a>
-                </li>    
+                </li>
+                </button>
             </ul>
-        </nav>  
+        </nav>
+        <h1></h1>
     </header>
     <main>
         <section id="destaques">
+            <div class="container destaque">
+                <figure>
+                    <img src="./img/mar.png" alt="imagem de destaque">
+                </figure>
+            </div>
             <div class="container paineis">
                 <!--painel da aula 1-->
                 <section class="painel aula1">
                     <h2>Aula 1</h2>
                     <ul>
-                        <li><h2>Exercício 1</h2>
+                        <li>
+                            <h3>Exercício 1</h3>
                             <img src="" alt="img do Exer1">
                             <a href="./aulas/aula 1/">Exercício 2</a>
                         </li>
@@ -45,9 +67,30 @@
                 <section class="painel aula2">
                     <h2>Aula 2</h2>
                     <ul>
-                        <li><h2>Exercício 1</h2>
+                        <li>
+                            <h3>Exercício 1</h3>
                             <img src="" alt="img do Exer1">
                             <a href="./aulas/aula 2/index.html">Exercício 1</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="painel aula3">
+                    <h2>Aula 3</h2>
+                    <ul>
+                        <li>
+                            <h3>Exercício 1</h3>
+                            <img src="" alt="img do Exer1">
+                            <a href="./aulas/aula 3/fonte.html">Exercício 1</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="painel aula4">
+                    <h2>Aula 4</h2>
+                    <ul>
+                        <li>
+                            <h3>Exercício 1</h3>
+                            <img src="" alt="img do Exer1">
+                            <a href="./aulas/aula 4/exercício 1/bordas.html">Exercício 1</a>
                         </li>
                     </ul>
                 </section>
@@ -56,12 +99,21 @@
     </main>
     <footer class="container">
         <figure>
-            <img class="imglogo" src="" alt="Imagem do logo">
+            <img class="imglogo2" src="./img/logo111.png" alt="Imagem do logo">
         </figure>
+
+        <input type="range" id="input-range" min="0" max="1" step="0.01">
+        <audio src="" id="audioplayer"></audio>
+        <button id="Play">Play</button>
+
         <ul class="social">
             <li><a href="https://github.com/cintiakuhn66">Github</a></li>
             <li><a href="https://www.instagram.com/cintia_kuhn_?igsh=MWF0cHNjZ3l3dWFudQ==">Instagram</a></li>
+            <li><a href="">LinkedIn</a></li>
         </ul>
     </footer>
+    <script src="./js/index.js">
+    </script>
 </body>
+
 </html>
