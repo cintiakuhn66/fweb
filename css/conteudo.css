@@ -1,15 +1,20 @@
+html,body{
+    background-color: #d5f0c0;
+}
+
 .menu-opcoes ul{
     font-size: 20px;
 }
 
 .menu-opcoes a{
     color: #003366;
+    margin-right: 15px;
 }
 
 .menu-opcoes{
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 10px;
+    right: 120px;
 }
 
 .container{
@@ -24,8 +29,11 @@
 }
 
 #imglogo{
-    width: 10%;
-    height: 10%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid rgb(60, 92, 60);
+    margin-top: 10px;
 }
 
 #imglupa{
@@ -93,4 +101,11 @@
 
 .menu-conteudo li li a:after{
     content: '>';
+}
+
+.button{
+    border: 2px solid rgb(70, 104, 55);
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 rgb(139, 187, 126);
+    margin-top: 10px;
 }

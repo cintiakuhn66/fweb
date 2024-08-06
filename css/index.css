@@ -1,7 +1,7 @@
 html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
-    background-color: #eaf6e1;
+    background-color: #d5f0c0;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -107,34 +107,37 @@ main{
 }
 
 .social li a[href*=instagram]{
-    width: 50px;
-    height: 40px;
-    background-image: url(../img/instagram.png);
+    width: 48px;
+    height: 38px;
+    background-image: url(../img/instagramm.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
-    
+    border-radius: 20%;
+    border-radius: 20%;
 }
 
 .social li a[href*=github]{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-image: url(../img/github.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    border-radius: 50%;
 }
 
 .social li a[href*=linkedin]{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-image: url(../img/linkedin.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    border-radius: 20%;
 }
 
 .social{
@@ -186,6 +189,7 @@ footer{
 .destaque img{
     width: 10%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .destaque{
@@ -193,14 +197,17 @@ footer{
 }
 
 .button{
-    width: 130px;
+    /*width: 135px;
     height: 28px;
     text-align: center;
-    margin-top: 10px;
     background-color: #ffffff;
     border: 2.5px solid rgb(113, 154, 113);
     font-size: 11px;
-    border-radius: 5%;
+    border-radius: 5%;*/
+    border: 2px solid rgb(70, 104, 55);
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 rgb(139, 187, 126);
+    margin-top: 10px;
 }
 
 h2{
@@ -208,3 +215,32 @@ h2{
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.aula4 img{
+    width: 32px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.aula3 img{
+    width: 32px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 15px
+}
+
+.aula2 img{
+    width: 32px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.aula1 img{
+    width: 32px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+  
