@@ -170,12 +170,19 @@ footer{
 }
 
 .imglogo{
-    width: 140px;
+    
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 2px solid rgb(60, 92, 60);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    /*width: 140px;
     height: 140px;
     border-radius: 50%;
     border: 2px solid rgb(60, 92, 60);
-    margin-top: 10px;
-}
+    margin-top: 10px*/
 
 .imglogo2{
     width: 80px;
@@ -214,6 +221,7 @@ h2{
     margin-top: 10px;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
 }
 
 .aula4 img{
